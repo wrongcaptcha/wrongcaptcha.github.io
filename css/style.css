@@ -1,4 +1,27 @@
 body, html{
-
+    background-color: #121212;
 }
 
+#title{
+    position: absolute;
+    color: white;
+    font-size: 250%;
+    font-family: roboto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.g-recaptcha{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#submit{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
